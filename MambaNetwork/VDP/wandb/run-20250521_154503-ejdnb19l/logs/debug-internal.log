@@ -1,0 +1,15 @@
+{"time":"2025-05-21T15:45:03.3537601+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250521_154503-ejdnb19l\\logs\\debug-core.log"}
+{"time":"2025-05-21T15:45:04.3293161+02:00","level":"INFO","msg":"created new stream","id":"ejdnb19l"}
+{"time":"2025-05-21T15:45:04.3298633+02:00","level":"INFO","msg":"handler: started","stream_id":"ejdnb19l"}
+{"time":"2025-05-21T15:45:04.3298633+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"ejdnb19l"}
+{"time":"2025-05-21T15:45:04.3298633+02:00","level":"INFO","msg":"stream: started","id":"ejdnb19l"}
+{"time":"2025-05-21T15:45:04.3298633+02:00","level":"INFO","msg":"sender: started","stream_id":"ejdnb19l"}
+{"time":"2025-05-21T15:45:04.6066695+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-21T15:45:50.7847476+02:00","level":"INFO","msg":"stream: closing","id":"ejdnb19l"}
+{"time":"2025-05-21T15:45:50.7852992+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-21T15:45:50.7852992+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-21T15:45:51.8576533+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-21T15:45:52.0594662+02:00","level":"INFO","msg":"sender: closed","stream_id":"ejdnb19l"}
+{"time":"2025-05-21T15:45:52.0599729+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ejdnb19l"}
+{"time":"2025-05-21T15:45:52.0599729+02:00","level":"INFO","msg":"handler: closed","stream_id":"ejdnb19l"}
+{"time":"2025-05-21T15:45:52.0599729+02:00","level":"INFO","msg":"stream: closed","id":"ejdnb19l"}

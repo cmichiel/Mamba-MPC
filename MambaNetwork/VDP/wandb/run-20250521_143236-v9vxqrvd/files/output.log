@@ -1,0 +1,20 @@
+u_data shape:torch.Size([10000, 1])
+y_data shape:torch.Size([10000, 1])
+u_test shape:torch.Size([2831, 1])
+y_test shape:torch.Size([2831, 1])
+Hankel Matrices Generated
+Hankel Matrices Generated
+Dataset Shape:torch.Size([9987, 10, 6])
+Test Dataset Shape:torch.Size([2818, 10, 6])
+Using GPU
+Initialized BestModelSaver. Will save best model to: State_dicts/Tustin_D8_dstate8_Conv4_ThomasLarge_N40
+Epoch 10 | Lossp: 0.06131 | Validation Loss: 0.04462
+Validation loss improved from inf to 0.0446.
+Traceback (most recent call last):
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 312, in <module>
+    Val_loss, Train_loss = PredictWithData(train_dataloader, test_dataloader)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 170, in PredictWithData
+    "A log": torch.exp(clf.mamba.layers[0].mixer.A_log.cpu().detach().numpy()),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: exp(): argument 'input' (position 1) must be Tensor, not numpy.ndarray

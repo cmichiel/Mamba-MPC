@@ -1,0 +1,15 @@
+{"time":"2025-06-02T16:10:45.0041161+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\Four Tank\\wandb\\run-20250602_161044-39lry9z2\\logs\\debug-core.log"}
+{"time":"2025-06-02T16:10:45.7390129+02:00","level":"INFO","msg":"created new stream","id":"39lry9z2"}
+{"time":"2025-06-02T16:10:45.7390129+02:00","level":"INFO","msg":"stream: started","id":"39lry9z2"}
+{"time":"2025-06-02T16:10:45.7390129+02:00","level":"INFO","msg":"handler: started","stream_id":"39lry9z2"}
+{"time":"2025-06-02T16:10:45.7390129+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"39lry9z2"}
+{"time":"2025-06-02T16:10:45.7390129+02:00","level":"INFO","msg":"sender: started","stream_id":"39lry9z2"}
+{"time":"2025-06-02T16:10:46.1544164+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-02T16:11:05.3376865+02:00","level":"INFO","msg":"stream: closing","id":"39lry9z2"}
+{"time":"2025-06-02T16:11:05.3376865+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-02T16:11:05.3376865+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-02T16:11:06.116291+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-02T16:11:06.3216386+02:00","level":"INFO","msg":"sender: closed","stream_id":"39lry9z2"}
+{"time":"2025-06-02T16:11:06.3224153+02:00","level":"INFO","msg":"handler: closed","stream_id":"39lry9z2"}
+{"time":"2025-06-02T16:11:06.3224153+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"39lry9z2"}
+{"time":"2025-06-02T16:11:06.3224153+02:00","level":"INFO","msg":"stream: closed","id":"39lry9z2"}

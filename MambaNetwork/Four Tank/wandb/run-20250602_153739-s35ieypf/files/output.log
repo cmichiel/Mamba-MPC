@@ -1,0 +1,10 @@
+Epoch 10 | Lossp: 0.00553 | Validation Loss: 0.00136
+Validation loss improved from inf to 0.0014.
+Traceback (most recent call last):
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\Four Tank\main.py", line 336, in <module>
+    Val_loss, Train_loss = PredictWithData(train_dataloader, test_dataloader)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\Four Tank\main.py", line 198, in PredictWithData
+    "Conditioning Number of Expansion Layer Weight": LA.cond(clf.mamba.layers[0].mixer.in_proj.weight.detach().numpy()),
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.

@@ -1,0 +1,20 @@
+Epoch 10 | Lossp: 0.02029 | Validation Loss: 0.00333
+Validation loss improved from inf to 0.0033.
+Traceback (most recent call last):
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\Four Tank\main.py", line 336, in <module>
+    Val_loss, Train_loss = PredictWithData(train_dataloader, test_dataloader)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\Four Tank\main.py", line 184, in PredictWithData
+    best_model_saver(current_valid_loss=Vloss/batch_size,
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\Four Tank\DataProcessing.py", line 58, in __call__
+    torch.save(checkpoint, r"C:\Users\Michiel\Desktop\Controllers\FourTankController\State_dicts/")
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\serialization.py", line 943, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\serialization.py", line 810, in _open_zipfile_writer
+    return container(name_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\serialization.py", line 781, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name, _compute_crc32))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [enforce fail at inline_container.cc:669] . invalid file name: C:\Users\Michiel\Desktop\Controllers\FourTankController\State_dicts/

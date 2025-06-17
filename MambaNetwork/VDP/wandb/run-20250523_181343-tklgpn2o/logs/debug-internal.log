@@ -1,0 +1,12 @@
+{"time":"2025-05-23T18:13:43.4076351+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250523_181343-tklgpn2o\\logs\\debug-core.log"}
+{"time":"2025-05-23T18:13:43.7134586+02:00","level":"INFO","msg":"created new stream","id":"tklgpn2o"}
+{"time":"2025-05-23T18:13:43.7134586+02:00","level":"INFO","msg":"stream: started","id":"tklgpn2o"}
+{"time":"2025-05-23T18:13:43.7134586+02:00","level":"INFO","msg":"handler: started","stream_id":"tklgpn2o"}
+{"time":"2025-05-23T18:13:43.7134586+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"tklgpn2o"}
+{"time":"2025-05-23T18:13:43.7134586+02:00","level":"INFO","msg":"sender: started","stream_id":"tklgpn2o"}
+{"time":"2025-05-23T18:13:44.0181968+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-23T20:04:18.5529797+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-23T22:37:29.041601+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 48032"}
+{"time":"2025-05-23T22:37:44.0549367+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 48032"}
+{"time":"2025-05-23T22:37:59.041713+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 48032"}
+{"time":"2025-05-23T22:38:14.0401168+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 48032"}

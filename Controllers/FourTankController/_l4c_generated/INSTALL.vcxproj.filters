@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Michiel\Desktop\Controllers\FourTankController\_l4c_generated\CMakeFiles\a58b0666d11e7d65ecfabad1ddd51ca2\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C3AD1734-AB1D-350E-8DF0-BBCEFAA44C2F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

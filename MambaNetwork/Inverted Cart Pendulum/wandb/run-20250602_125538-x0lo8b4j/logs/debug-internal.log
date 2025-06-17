@@ -1,0 +1,33 @@
+{"time":"2025-06-02T12:55:38.7319736+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\Inverted Cart Pendulum\\wandb\\run-20250602_125538-x0lo8b4j\\logs\\debug-core.log"}
+{"time":"2025-06-02T12:55:39.9374594+02:00","level":"INFO","msg":"created new stream","id":"x0lo8b4j"}
+{"time":"2025-06-02T12:55:39.9380029+02:00","level":"INFO","msg":"stream: started","id":"x0lo8b4j"}
+{"time":"2025-06-02T12:55:39.9380029+02:00","level":"INFO","msg":"handler: started","stream_id":"x0lo8b4j"}
+{"time":"2025-06-02T12:55:39.9380029+02:00","level":"INFO","msg":"sender: started","stream_id":"x0lo8b4j"}
+{"time":"2025-06-02T12:55:39.9380029+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"x0lo8b4j"}
+{"time":"2025-06-02T12:55:40.82684+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-02T13:03:26.4089871+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/MambaDeePC/Cart%20Pendulum/x0lo8b4j/file_stream\": unexpected EOF"}
+{"time":"2025-06-02T13:22:40.7338266+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:22:55.7335043+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:23:10.7262787+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:23:25.7131084+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:23:40.7443359+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:23:55.7504418+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:24:10.7518129+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:24:25.710577+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:24:40.7089815+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:25:02.4014796+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:25:10.7135978+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:25:25.7222388+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:25:40.7064671+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:25:55.7139424+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:26:10.6874967+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:26:25.6912681+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:26:40.6657526+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:26:55.7038821+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:27:10.6737257+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:27:25.6853748+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:27:40.6923283+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:27:55.6740575+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:28:10.658778+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:28:25.6459213+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}
+{"time":"2025-06-02T13:28:40.685234+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 49160"}

@@ -1,0 +1,13 @@
+u_data shape:torch.Size([40000, 1])
+y_data shape:torch.Size([40000, 1])
+u_test shape:torch.Size([2861, 1])
+y_test shape:torch.Size([2861, 1])
+Hankel Matrices Generated
+Hankel Matrices Generated
+Dataset Shape:torch.Size([39981, 20, 3])
+Test Dataset Shape:torch.Size([2841, 20, 3])
+Using GPU
+Initialized BestModelSaver. Will save best model to: State_dicts/RK4_D16_dstate16_Conv4_Mix_N10
+Epoch 10 | Lossp: 0.86866 | Validation Loss: 0.02802
+Validation loss improved from inf to 0.0280.
+Epoch 20 | Lossp: 0.67649 | Validation Loss: 0.03438

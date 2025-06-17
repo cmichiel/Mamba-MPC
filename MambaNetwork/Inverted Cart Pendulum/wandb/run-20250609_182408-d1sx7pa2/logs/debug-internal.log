@@ -1,0 +1,24 @@
+{"time":"2025-06-09T18:24:08.5810284+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\Inverted Cart Pendulum\\wandb\\run-20250609_182408-d1sx7pa2\\logs\\debug-core.log"}
+{"time":"2025-06-09T18:24:09.3784542+02:00","level":"INFO","msg":"created new stream","id":"d1sx7pa2"}
+{"time":"2025-06-09T18:24:09.3790147+02:00","level":"INFO","msg":"stream: started","id":"d1sx7pa2"}
+{"time":"2025-06-09T18:24:09.3790147+02:00","level":"INFO","msg":"handler: started","stream_id":"d1sx7pa2"}
+{"time":"2025-06-09T18:24:09.3790147+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"d1sx7pa2"}
+{"time":"2025-06-09T18:24:09.3790147+02:00","level":"INFO","msg":"sender: started","stream_id":"d1sx7pa2"}
+{"time":"2025-06-09T18:24:09.7717264+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-09T20:27:24.8038728+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:27:39.799433+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:27:54.7980586+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:28:09.800445+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:28:24.7991201+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:28:39.8036867+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:28:54.8072147+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:29:09.8028965+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:29:24.8015289+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:29:39.8001099+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:29:54.7997257+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:30:09.7996939+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:30:24.800766+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:30:39.8022083+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:30:54.8017595+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:31:09.801259+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}
+{"time":"2025-06-09T20:31:24.7990173+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 67044"}

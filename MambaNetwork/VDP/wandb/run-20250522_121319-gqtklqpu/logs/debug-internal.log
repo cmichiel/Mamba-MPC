@@ -1,0 +1,15 @@
+{"time":"2025-05-22T12:13:19.4194852+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250522_121319-gqtklqpu\\logs\\debug-core.log"}
+{"time":"2025-05-22T12:13:20.1032169+02:00","level":"INFO","msg":"created new stream","id":"gqtklqpu"}
+{"time":"2025-05-22T12:13:20.1032169+02:00","level":"INFO","msg":"handler: started","stream_id":"gqtklqpu"}
+{"time":"2025-05-22T12:13:20.1032169+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"gqtklqpu"}
+{"time":"2025-05-22T12:13:20.1037651+02:00","level":"INFO","msg":"stream: started","id":"gqtklqpu"}
+{"time":"2025-05-22T12:13:20.1037651+02:00","level":"INFO","msg":"sender: started","stream_id":"gqtklqpu"}
+{"time":"2025-05-22T12:13:20.363711+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-22T12:29:05.1035258+02:00","level":"INFO","msg":"stream: closing","id":"gqtklqpu"}
+{"time":"2025-05-22T12:29:05.1040947+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-22T12:29:05.1040947+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-22T12:29:05.82199+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-22T12:29:06.3724177+02:00","level":"INFO","msg":"sender: closed","stream_id":"gqtklqpu"}
+{"time":"2025-05-22T12:29:06.3724177+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gqtklqpu"}
+{"time":"2025-05-22T12:29:06.3724177+02:00","level":"INFO","msg":"handler: closed","stream_id":"gqtklqpu"}
+{"time":"2025-05-22T12:29:06.3724177+02:00","level":"INFO","msg":"stream: closed","id":"gqtklqpu"}

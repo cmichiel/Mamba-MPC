@@ -1,0 +1,15 @@
+{"time":"2025-05-23T22:41:15.7295076+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250523_224115-zkmjroil\\logs\\debug-core.log"}
+{"time":"2025-05-23T22:41:16.1116674+02:00","level":"INFO","msg":"created new stream","id":"zkmjroil"}
+{"time":"2025-05-23T22:41:16.1121963+02:00","level":"INFO","msg":"stream: started","id":"zkmjroil"}
+{"time":"2025-05-23T22:41:16.1121963+02:00","level":"INFO","msg":"handler: started","stream_id":"zkmjroil"}
+{"time":"2025-05-23T22:41:16.1121963+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"zkmjroil"}
+{"time":"2025-05-23T22:41:16.1121963+02:00","level":"INFO","msg":"sender: started","stream_id":"zkmjroil"}
+{"time":"2025-05-23T22:41:16.4248867+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-23T22:41:53.5529644+02:00","level":"INFO","msg":"stream: closing","id":"zkmjroil"}
+{"time":"2025-05-23T22:41:53.5529644+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-23T22:41:53.5529644+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-23T22:41:54.138761+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-23T22:41:54.4048538+02:00","level":"INFO","msg":"sender: closed","stream_id":"zkmjroil"}
+{"time":"2025-05-23T22:41:54.4048538+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zkmjroil"}
+{"time":"2025-05-23T22:41:54.4048538+02:00","level":"INFO","msg":"handler: closed","stream_id":"zkmjroil"}
+{"time":"2025-05-23T22:41:54.4053984+02:00","level":"INFO","msg":"stream: closed","id":"zkmjroil"}

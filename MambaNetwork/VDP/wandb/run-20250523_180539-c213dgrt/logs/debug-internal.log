@@ -1,0 +1,10 @@
+{"time":"2025-05-23T18:05:39.7507988+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250523_180539-c213dgrt\\logs\\debug-core.log"}
+{"time":"2025-05-23T18:05:40.1263564+02:00","level":"INFO","msg":"created new stream","id":"c213dgrt"}
+{"time":"2025-05-23T18:05:40.1263564+02:00","level":"INFO","msg":"stream: started","id":"c213dgrt"}
+{"time":"2025-05-23T18:05:40.1263564+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"c213dgrt"}
+{"time":"2025-05-23T18:05:40.1263564+02:00","level":"INFO","msg":"handler: started","stream_id":"c213dgrt"}
+{"time":"2025-05-23T18:05:40.1263564+02:00","level":"INFO","msg":"sender: started","stream_id":"c213dgrt"}
+{"time":"2025-05-23T18:05:40.5753677+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-23T19:30:11.2487983+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/MambaDeePC/uncategorized/c213dgrt/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-05-24T12:45:39.799592+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/MambaDeePC/uncategorized/c213dgrt/file_stream"}
+{"time":"2025-05-24T12:45:39.8007558+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/MambaDeePC/uncategorized/c213dgrt/file_stream: {\"error\":\"run uncategorized/c213dgrt not found while streaming file\"}"}

@@ -1,0 +1,15 @@
+{"time":"2025-06-02T11:58:12.137041+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\Inverted Cart Pendulum\\wandb\\run-20250602_115811-5ckmrxsk\\logs\\debug-core.log"}
+{"time":"2025-06-02T11:58:12.5087382+02:00","level":"INFO","msg":"created new stream","id":"5ckmrxsk"}
+{"time":"2025-06-02T11:58:12.5093283+02:00","level":"INFO","msg":"stream: started","id":"5ckmrxsk"}
+{"time":"2025-06-02T11:58:12.5093283+02:00","level":"INFO","msg":"handler: started","stream_id":"5ckmrxsk"}
+{"time":"2025-06-02T11:58:12.5093283+02:00","level":"INFO","msg":"sender: started","stream_id":"5ckmrxsk"}
+{"time":"2025-06-02T11:58:12.5093283+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"5ckmrxsk"}
+{"time":"2025-06-02T11:58:12.9290145+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-02T12:00:06.6727437+02:00","level":"INFO","msg":"stream: closing","id":"5ckmrxsk"}
+{"time":"2025-06-02T12:00:06.6727437+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-02T12:00:06.6732496+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-02T12:00:07.3667368+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-02T12:00:07.5778468+02:00","level":"INFO","msg":"handler: closed","stream_id":"5ckmrxsk"}
+{"time":"2025-06-02T12:00:07.5778468+02:00","level":"INFO","msg":"sender: closed","stream_id":"5ckmrxsk"}
+{"time":"2025-06-02T12:00:07.5778468+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5ckmrxsk"}
+{"time":"2025-06-02T12:00:07.5797543+02:00","level":"INFO","msg":"stream: closed","id":"5ckmrxsk"}

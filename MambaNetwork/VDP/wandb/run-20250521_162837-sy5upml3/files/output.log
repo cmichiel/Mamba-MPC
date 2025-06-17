@@ -1,0 +1,5 @@
+u_data shape:torch.Size([80000, 1])
+y_data shape:torch.Size([80000, 1])
+u_test shape:torch.Size([2831, 1])
+y_test shape:torch.Size([2831, 1])
+Hankel Matrices Generated

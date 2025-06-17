@@ -1,0 +1,16 @@
+function [J] = cost_functionRBF(u, ref, u_ini, y_ini, N, Ts,Omega,R,Rd,S, u_init,  weight, centersKoopman, log_sigmasKoopman, data_mean_1,data_std_1,data_mean_2,data_std_2)
+    % u_seq: Sequence of control inputs [u(1), u(2), ..., u(N)]
+    % x0: Initial state
+    % y_ref: Desired reference output
+    % N: Prediction horizon
+    % dt: Time step
+    J = 0;
+    [y] = RBF(u, u_ini,y_ini, weight, centersKoopman, log_sigmasKoopman, data_mean_1,data_std_1,data_mean_2,data_std_2)
+    J = J + (y - ref)*Omega*(y - ref)' + (u(1)-u_init)'*Rd*(u(1)-u_init) + u(N)'*R*u(N);
+    J = J + (y(N) - ref(N))'*S*(y(N) - ref(N));
+    for k = 1:N-1       
+        % Define your output function
+        J = J + u(k)'*R*u(k); % Output tracking error
+        J = J + (u(k+1)-u(k))'*Rd*(u(k+1)-u(k)); % Control effort penalty
+    end
+end

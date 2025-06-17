@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Michiel\Desktop\Controllers\PendulumController\_l4c_generated\CMakeFiles\83f21ab886edee3c315de238fce18141\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BB2A9649-432D-3AAB-85CB-3E1CE4E17FB1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

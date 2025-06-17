@@ -1,0 +1,22 @@
+u_data shape:torch.Size([40000, 1])
+y_data shape:torch.Size([40000, 1])
+u_test shape:torch.Size([2861, 1])
+y_test shape:torch.Size([2861, 1])
+Hankel Matrices Generated
+Hankel Matrices Generated
+Dataset Shape:torch.Size([39991, 10, 3])
+Test Dataset Shape:torch.Size([2851, 10, 3])
+Using GPU
+Initialized BestModelSaver. Will save best model to: State_dicts/RK4_D8_dstate8_Conv4_ThomasLarge_N10
+Epoch 10 | Lossp: 0.02576 | Validation Loss: 0.00467
+Validation loss improved from inf to 0.0047.
+Epoch 20 | Lossp: 0.02448 | Validation Loss: 0.00475
+Epoch 30 | Lossp: 0.02406 | Validation Loss: 0.00540
+Epoch 40 | Lossp: 0.02347 | Validation Loss: 0.00499
+Epoch 50 | Lossp: 0.02292 | Validation Loss: 0.00466
+Validation loss improved from 0.0047 to 0.0047.
+Epoch 60 | Lossp: 0.02215 | Validation Loss: 0.00482
+Epoch 70 | Lossp: 0.02151 | Validation Loss: 0.00478
+Epoch 80 | Lossp: 0.02086 | Validation Loss: 0.00481
+Epoch 90 | Lossp: 0.02067 | Validation Loss: 0.00501
+Epoch 100 | Lossp: 0.02041 | Validation Loss: 0.00516

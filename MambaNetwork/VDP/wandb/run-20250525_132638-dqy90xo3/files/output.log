@@ -1,0 +1,31 @@
+u_data shape:torch.Size([40000, 1])
+y_data shape:torch.Size([40000, 1])
+u_test shape:torch.Size([2861, 1])
+y_test shape:torch.Size([2861, 1])
+Hankel Matrices Generated
+Hankel Matrices Generated
+Dataset Shape:torch.Size([39981, 20, 3])
+Test Dataset Shape:torch.Size([2841, 20, 3])
+Traceback (most recent call last):
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 352, in <module>
+    Val_loss, Train_loss = PredictWithData(train_dataloader, test_dataloader)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 145, in PredictWithData
+    clf.load_state_dict(torch.load("State_dicts/Tustin_D8_dstate8_Conv4_Thomas_N10_States",map_location=torch.device('cpu'))['model_state_dict'])
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 2581, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for NetSequences:
+	size mismatch for lin1.weight: copying a param with shape torch.Size([8, 3]) from checkpoint, the shape in current model is torch.Size([16, 3]).
+	size mismatch for lin1.bias: copying a param with shape torch.Size([8]) from checkpoint, the shape in current model is torch.Size([16]).
+	size mismatch for mamba.layers.0.mixer.A_log: copying a param with shape torch.Size([8, 8]) from checkpoint, the shape in current model is torch.Size([16, 16]).
+	size mismatch for mamba.layers.0.mixer.D: copying a param with shape torch.Size([8]) from checkpoint, the shape in current model is torch.Size([16]).
+	size mismatch for mamba.layers.0.mixer.in_proj.weight: copying a param with shape torch.Size([16, 8]) from checkpoint, the shape in current model is torch.Size([32, 16]).
+	size mismatch for mamba.layers.0.mixer.conv1d.weight: copying a param with shape torch.Size([8, 1, 4]) from checkpoint, the shape in current model is torch.Size([16, 1, 4]).
+	size mismatch for mamba.layers.0.mixer.conv1d.bias: copying a param with shape torch.Size([8]) from checkpoint, the shape in current model is torch.Size([16]).
+	size mismatch for mamba.layers.0.mixer.x_proj.weight: copying a param with shape torch.Size([17, 8]) from checkpoint, the shape in current model is torch.Size([34, 16]).
+	size mismatch for mamba.layers.0.mixer.dt_proj.weight: copying a param with shape torch.Size([8, 1]) from checkpoint, the shape in current model is torch.Size([16, 2]).
+	size mismatch for mamba.layers.0.mixer.dt_proj.bias: copying a param with shape torch.Size([8]) from checkpoint, the shape in current model is torch.Size([16]).
+	size mismatch for mamba.layers.0.mixer.out_proj.weight: copying a param with shape torch.Size([8, 8]) from checkpoint, the shape in current model is torch.Size([16, 16]).
+	size mismatch for mamba.layers.0.norm.weight: copying a param with shape torch.Size([8]) from checkpoint, the shape in current model is torch.Size([16]).
+	size mismatch for mamba.norm_f.weight: copying a param with shape torch.Size([8]) from checkpoint, the shape in current model is torch.Size([16]).
+	size mismatch for MLP.weight: copying a param with shape torch.Size([2, 8]) from checkpoint, the shape in current model is torch.Size([2, 16]).

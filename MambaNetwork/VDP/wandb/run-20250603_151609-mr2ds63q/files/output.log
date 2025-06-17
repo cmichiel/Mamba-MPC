@@ -1,0 +1,39 @@
+u_data shape:torch.Size([10000, 1])
+y_data shape:torch.Size([10000, 1])
+u_test shape:torch.Size([2861, 1])
+y_test shape:torch.Size([2861, 1])
+Hankel Matrices Generated
+Hankel Matrices Generated
+Dataset Shape:torch.Size([9981, 20, 3])
+Test Dataset Shape:torch.Size([2841, 20, 3])
+Using GPU
+Initialized BestModelSaver. Will save best model to: State_dicts/ZOH_D8_dstate8_Conv4_ThomasNoiseSNR20_1
+Epoch 10 | Lossp: 0.21613 | Validation Loss: 0.05387
+Validation loss improved from inf to 0.0539.
+Epoch 20 | Lossp: 0.17876 | Validation Loss: 0.04857
+Validation loss improved from 0.0539 to 0.0486.
+Epoch 30 | Lossp: 0.16456 | Validation Loss: 0.04534
+Validation loss improved from 0.0486 to 0.0453.
+Epoch 40 | Lossp: 0.15603 | Validation Loss: 0.04480
+Validation loss improved from 0.0453 to 0.0448.
+Epoch 50 | Lossp: 0.14830 | Validation Loss: 0.04546
+Epoch 60 | Lossp: 0.14374 | Validation Loss: 0.04452
+Validation loss improved from 0.0448 to 0.0445.
+Epoch 70 | Lossp: 0.13996 | Validation Loss: 0.04226
+Validation loss improved from 0.0445 to 0.0423.
+Epoch 80 | Lossp: 0.13871 | Validation Loss: 0.05143
+Epoch 90 | Lossp: 0.13836 | Validation Loss: 0.04536
+Epoch 100 | Lossp: 0.13581 | Validation Loss: 0.03817
+Validation loss improved from 0.0423 to 0.0382.
+Epoch 110 | Lossp: 0.13566 | Validation Loss: 0.04030
+Epoch 120 | Lossp: 0.13619 | Validation Loss: 0.04430
+Epoch 130 | Lossp: 0.13325 | Validation Loss: 0.03997
+Epoch 140 | Lossp: 0.13248 | Validation Loss: 0.03788
+Validation loss improved from 0.0382 to 0.0379.
+Epoch 150 | Lossp: 0.13193 | Validation Loss: 0.03792
+Epoch 160 | Lossp: 0.13097 | Validation Loss: 0.04110
+Epoch 170 | Lossp: 0.13048 | Validation Loss: 0.03853
+Epoch 180 | Lossp: 0.12938 | Validation Loss: 0.04147
+Epoch 190 | Lossp: 0.12823 | Validation Loss: 0.03710
+Validation loss improved from 0.0379 to 0.0371.
+Epoch 200 | Lossp: 0.12779 | Validation Loss: 0.04448

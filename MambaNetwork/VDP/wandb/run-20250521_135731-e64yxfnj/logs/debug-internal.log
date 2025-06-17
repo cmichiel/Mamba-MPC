@@ -1,0 +1,72 @@
+{"time":"2025-05-21T13:57:31.8677768+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250521_135731-e64yxfnj\\logs\\debug-core.log"}
+{"time":"2025-05-21T13:57:32.2839516+02:00","level":"INFO","msg":"created new stream","id":"e64yxfnj"}
+{"time":"2025-05-21T13:57:32.2839516+02:00","level":"INFO","msg":"stream: started","id":"e64yxfnj"}
+{"time":"2025-05-21T13:57:32.2839516+02:00","level":"INFO","msg":"handler: started","stream_id":"e64yxfnj"}
+{"time":"2025-05-21T13:57:32.2839516+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"e64yxfnj"}
+{"time":"2025-05-21T13:57:32.2839516+02:00","level":"INFO","msg":"sender: started","stream_id":"e64yxfnj"}
+{"time":"2025-05-21T13:57:32.5975623+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-21T14:26:02.6198188+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:26:17.619004+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:26:32.6195687+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:26:47.6181993+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:27:02.6221092+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:27:17.6191208+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:27:32.6191184+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:27:47.6200147+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:28:02.6197301+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:28:17.6213361+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:28:32.6234639+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:28:47.6208105+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:29:02.6185929+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:29:17.6180741+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:29:32.620141+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:29:47.6186028+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:30:02.6183487+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:30:17.6205823+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:30:32.6171231+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:30:47.6182367+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:31:02.620217+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:31:17.6196561+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:31:32.6183753+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:31:47.6203391+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:32:02.6198895+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:32:17.6179559+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:32:32.61979+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:32:47.6184967+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:33:02.6190235+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:33:17.620348+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:33:32.6194119+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:33:47.6217906+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:34:02.6255093+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:34:17.6252031+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:34:32.6240373+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:34:33.4986156+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/MambaDeePC/uncategorized/e64yxfnj/file_stream"}
+{"time":"2025-05-21T14:34:33.4986156+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/MambaDeePC/uncategorized/e64yxfnj/file_stream: {\"error\":\"run uncategorized/e64yxfnj not found while streaming file\"}"}
+{"time":"2025-05-21T14:34:47.6189945+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:35:02.620388+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:35:17.6207566+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:35:32.6204518+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:35:47.6199515+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:36:02.6213052+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:36:17.6193575+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:36:32.6188457+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:36:47.6196402+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:37:02.6201834+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:37:17.6197461+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:37:32.6270687+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:37:47.6242535+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:38:02.6371232+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:38:17.6203188+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:38:32.6267548+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:38:47.6223169+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:39:02.618527+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:39:17.6200504+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:39:32.6277475+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:39:47.6182354+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:40:02.6186871+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:40:17.6220397+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:40:32.6242548+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:40:47.6197806+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:41:02.6247093+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:41:17.6303049+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}
+{"time":"2025-05-21T14:41:32.618002+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 39296"}

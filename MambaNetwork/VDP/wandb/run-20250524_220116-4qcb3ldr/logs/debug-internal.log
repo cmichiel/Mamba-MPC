@@ -1,0 +1,18 @@
+{"time":"2025-05-24T22:01:16.5748303+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250524_220116-4qcb3ldr\\logs\\debug-core.log"}
+{"time":"2025-05-24T22:01:17.2929704+02:00","level":"INFO","msg":"created new stream","id":"4qcb3ldr"}
+{"time":"2025-05-24T22:01:17.2929704+02:00","level":"INFO","msg":"stream: started","id":"4qcb3ldr"}
+{"time":"2025-05-24T22:01:17.2929704+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"4qcb3ldr"}
+{"time":"2025-05-24T22:01:17.2929704+02:00","level":"INFO","msg":"handler: started","stream_id":"4qcb3ldr"}
+{"time":"2025-05-24T22:01:17.2929704+02:00","level":"INFO","msg":"sender: started","stream_id":"4qcb3ldr"}
+{"time":"2025-05-24T22:01:17.5960568+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-25T00:36:47.393222+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 89308"}
+{"time":"2025-05-25T00:37:02.3933708+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 89308"}
+{"time":"2025-05-25T00:37:17.3933941+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 89308"}
+{"time":"2025-05-25T00:37:32.4065791+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 89308"}
+{"time":"2025-05-25T00:37:47.3953439+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 89308"}
+{"time":"2025-05-25T00:38:02.3859384+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 89308"}
+{"time":"2025-05-25T00:38:17.3891608+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 89308"}
+{"time":"2025-05-25T00:38:32.4087967+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 89308"}
+{"time":"2025-05-25T00:38:47.3851341+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 89308"}
+{"time":"2025-05-25T00:39:02.4046398+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 89308"}
+{"time":"2025-05-25T00:39:17.4111888+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 89308"}

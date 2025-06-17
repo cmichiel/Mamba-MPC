@@ -1,0 +1,160 @@
+u_data shape:torch.Size([40000, 1])
+y_data shape:torch.Size([40000, 1])
+u_test shape:torch.Size([2831, 1])
+y_test shape:torch.Size([2831, 1])
+Hankel Matrices Generated
+Hankel Matrices Generated
+Dataset Shape:torch.Size([39947, 50, 6])
+Test Dataset Shape:torch.Size([2778, 50, 6])
+Using GPU
+Initialized BestModelSaver. Will save best model to: State_dicts/FE_D32_dstate8_Conv4_Mix_N50
+Epoch 10 | Lossp: 16.60357 | Validation Loss: 1.48522
+Validation loss improved from inf to 1.4852.
+Epoch 20 | Lossp: 12.09637 | Validation Loss: 0.83799
+Validation loss improved from 1.4852 to 0.8380.
+Epoch 30 | Lossp: 6.98389 | Validation Loss: 0.61349
+Validation loss improved from 0.8380 to 0.6135.
+Epoch 40 | Lossp: 5.60609 | Validation Loss: 0.52155
+Validation loss improved from 0.6135 to 0.5215.
+Epoch 50 | Lossp: 4.57778 | Validation Loss: 0.46630
+Validation loss improved from 0.5215 to 0.4663.
+Epoch 60 | Lossp: 3.92883 | Validation Loss: 0.48131
+Epoch 70 | Lossp: 3.51948 | Validation Loss: 0.48403
+Epoch 80 | Lossp: 3.28391 | Validation Loss: 0.44645
+Validation loss improved from 0.4663 to 0.4465.
+Epoch 90 | Lossp: 3.06235 | Validation Loss: 0.42977
+Validation loss improved from 0.4465 to 0.4298.
+Epoch 100 | Lossp: 2.88831 | Validation Loss: 0.38106
+Validation loss improved from 0.4298 to 0.3811.
+Epoch 110 | Lossp: 2.74108 | Validation Loss: 0.41081
+Epoch 120 | Lossp: 2.64312 | Validation Loss: 0.31588
+Validation loss improved from 0.3811 to 0.3159.
+Epoch 130 | Lossp: 2.55294 | Validation Loss: 0.29351
+Validation loss improved from 0.3159 to 0.2935.
+Epoch 140 | Lossp: 2.47220 | Validation Loss: 0.27453
+Validation loss improved from 0.2935 to 0.2745.
+Epoch 150 | Lossp: 2.37762 | Validation Loss: 0.25664
+Validation loss improved from 0.2745 to 0.2566.
+Epoch 160 | Lossp: 2.27657 | Validation Loss: 0.23764
+Validation loss improved from 0.2566 to 0.2376.
+Epoch 170 | Lossp: 2.17684 | Validation Loss: 0.20306
+Validation loss improved from 0.2376 to 0.2031.
+Epoch 180 | Lossp: 2.11427 | Validation Loss: 0.18711
+Validation loss improved from 0.2031 to 0.1871.
+Epoch 190 | Lossp: 2.02351 | Validation Loss: 0.17793
+Validation loss improved from 0.1871 to 0.1779.
+Epoch 200 | Lossp: 1.95706 | Validation Loss: 0.16703
+Validation loss improved from 0.1779 to 0.1670.
+Epoch 210 | Lossp: 1.89140 | Validation Loss: 0.15611
+Validation loss improved from 0.1670 to 0.1561.
+Epoch 220 | Lossp: 1.81869 | Validation Loss: 0.18569
+Epoch 230 | Lossp: 1.76883 | Validation Loss: 0.15767
+Epoch 240 | Lossp: 1.71373 | Validation Loss: 0.15087
+Validation loss improved from 0.1561 to 0.1509.
+Epoch 250 | Lossp: 1.66024 | Validation Loss: 0.13180
+Validation loss improved from 0.1509 to 0.1318.
+Epoch 260 | Lossp: 1.62194 | Validation Loss: 0.11965
+Validation loss improved from 0.1318 to 0.1197.
+Epoch 270 | Lossp: 1.56931 | Validation Loss: 0.11887
+Validation loss improved from 0.1197 to 0.1189.
+Epoch 280 | Lossp: 1.52628 | Validation Loss: 0.11439
+Validation loss improved from 0.1189 to 0.1144.
+Epoch 290 | Lossp: 1.49217 | Validation Loss: 0.11471
+Epoch 300 | Lossp: 1.42767 | Validation Loss: 0.11992
+Epoch 310 | Lossp: 1.39170 | Validation Loss: 0.10709
+Validation loss improved from 0.1144 to 0.1071.
+Epoch 320 | Lossp: 1.33098 | Validation Loss: 0.11040
+Epoch 330 | Lossp: 1.28869 | Validation Loss: 0.11311
+Epoch 340 | Lossp: 1.25090 | Validation Loss: 0.11871
+Epoch 350 | Lossp: 1.21528 | Validation Loss: 0.10355
+Validation loss improved from 0.1071 to 0.1036.
+Epoch 360 | Lossp: 1.18288 | Validation Loss: 0.10324
+Validation loss improved from 0.1036 to 0.1032.
+Epoch 370 | Lossp: 1.14723 | Validation Loss: 0.09745
+Validation loss improved from 0.1032 to 0.0974.
+Epoch 380 | Lossp: 1.12990 | Validation Loss: 0.09336
+Validation loss improved from 0.0974 to 0.0934.
+Epoch 390 | Lossp: 1.10186 | Validation Loss: 0.09152
+Validation loss improved from 0.0934 to 0.0915.
+Epoch 400 | Lossp: 1.08542 | Validation Loss: 0.09301
+Epoch 410 | Lossp: 1.06099 | Validation Loss: 0.08577
+Validation loss improved from 0.0915 to 0.0858.
+Epoch 420 | Lossp: 1.03456 | Validation Loss: 0.10091
+Epoch 430 | Lossp: 1.01860 | Validation Loss: 0.10039
+Epoch 440 | Lossp: 1.00074 | Validation Loss: 0.08841
+Epoch 450 | Lossp: 0.97678 | Validation Loss: 0.08406
+Validation loss improved from 0.0858 to 0.0841.
+Epoch 460 | Lossp: 0.96753 | Validation Loss: 0.08231
+Validation loss improved from 0.0841 to 0.0823.
+Epoch 470 | Lossp: 0.94280 | Validation Loss: 0.07369
+Validation loss improved from 0.0823 to 0.0737.
+Epoch 480 | Lossp: 0.92175 | Validation Loss: 0.09267
+Epoch 490 | Lossp: 0.91196 | Validation Loss: 0.07505
+Epoch 500 | Lossp: 0.88471 | Validation Loss: 0.06408
+Validation loss improved from 0.0737 to 0.0641.
+Epoch 510 | Lossp: 0.87396 | Validation Loss: 0.08378
+Epoch 520 | Lossp: 0.86024 | Validation Loss: 0.08506
+Epoch 530 | Lossp: 0.83747 | Validation Loss: 0.08333
+Epoch 540 | Lossp: 0.83081 | Validation Loss: 0.06658
+Epoch 550 | Lossp: 0.80938 | Validation Loss: 0.06672
+Epoch 560 | Lossp: 0.80561 | Validation Loss: 0.05124
+Validation loss improved from 0.0641 to 0.0512.
+Epoch 570 | Lossp: 0.78732 | Validation Loss: 0.06611
+Epoch 580 | Lossp: 0.77338 | Validation Loss: 0.06878
+Epoch 590 | Lossp: 0.76168 | Validation Loss: 0.06431
+Epoch 600 | Lossp: 0.75036 | Validation Loss: 0.04773
+Validation loss improved from 0.0512 to 0.0477.
+Epoch 610 | Lossp: 0.73551 | Validation Loss: 0.08090
+Epoch 620 | Lossp: 0.72689 | Validation Loss: 0.05616
+Epoch 630 | Lossp: 0.70729 | Validation Loss: 0.06347
+Epoch 640 | Lossp: 0.69854 | Validation Loss: 0.08657
+Epoch 650 | Lossp: 0.69258 | Validation Loss: 0.05327
+Epoch 660 | Lossp: 0.68559 | Validation Loss: 0.05405
+Epoch 670 | Lossp: 0.67142 | Validation Loss: 0.05267
+Epoch 680 | Lossp: 0.66163 | Validation Loss: 0.08756
+Epoch 690 | Lossp: 0.65503 | Validation Loss: 0.05258
+Epoch 700 | Lossp: 0.64351 | Validation Loss: 0.04955
+Epoch 710 | Lossp: 0.63387 | Validation Loss: 0.04943
+Epoch 720 | Lossp: 0.62754 | Validation Loss: 0.05777
+Epoch 730 | Lossp: 0.61707 | Validation Loss: 0.06697
+Epoch 740 | Lossp: 0.61317 | Validation Loss: 0.04285
+Validation loss improved from 0.0477 to 0.0428.
+Epoch 750 | Lossp: 0.60423 | Validation Loss: 0.05765
+Epoch 760 | Lossp: 0.60223 | Validation Loss: 0.04460
+Epoch 770 | Lossp: 0.59255 | Validation Loss: 0.05372
+Epoch 780 | Lossp: 0.58537 | Validation Loss: 0.06514
+Epoch 790 | Lossp: 0.58627 | Validation Loss: 0.04624
+Epoch 800 | Lossp: 0.58276 | Validation Loss: 0.06547
+Epoch 810 | Lossp: 0.57470 | Validation Loss: 0.05213
+Epoch 820 | Lossp: 0.56633 | Validation Loss: 0.07313
+Epoch 830 | Lossp: 0.56778 | Validation Loss: 0.05182
+Epoch 840 | Lossp: 0.56129 | Validation Loss: 0.05493
+Epoch 850 | Lossp: 0.56187 | Validation Loss: 0.04416
+Epoch 860 | Lossp: 0.55493 | Validation Loss: 0.04390
+Epoch 870 | Lossp: 0.54480 | Validation Loss: 0.04627
+Epoch 880 | Lossp: 0.54566 | Validation Loss: 0.04539
+Epoch 890 | Lossp: 0.54066 | Validation Loss: 0.04666
+Epoch 900 | Lossp: 0.54400 | Validation Loss: 0.05073
+Epoch 910 | Lossp: 0.54106 | Validation Loss: 0.04534
+Epoch 920 | Lossp: 0.53698 | Validation Loss: 0.04298
+Epoch 930 | Lossp: 0.53091 | Validation Loss: 0.04934
+Epoch 940 | Lossp: 0.52398 | Validation Loss: 0.04164
+Validation loss improved from 0.0428 to 0.0416.
+Epoch 950 | Lossp: 0.52570 | Validation Loss: 0.05262
+Epoch 960 | Lossp: 0.51798 | Validation Loss: 0.04804
+Epoch 970 | Lossp: 0.52172 | Validation Loss: 0.04123
+Validation loss improved from 0.0416 to 0.0412.
+Epoch 980 | Lossp: 0.51622 | Validation Loss: 0.05524
+Epoch 990 | Lossp: 0.51181 | Validation Loss: 0.04983
+Epoch 1000 | Lossp: 0.51182 | Validation Loss: 0.04396
+Epoch 1010 | Lossp: 0.50290 | Validation Loss: 0.06282
+Epoch 1020 | Lossp: 0.50855 | Validation Loss: 0.04532
+Epoch 1030 | Lossp: 0.49810 | Validation Loss: 0.05334
+Epoch 1040 | Lossp: 0.50550 | Validation Loss: 0.04785
+Epoch 1050 | Lossp: 0.49830 | Validation Loss: 0.03901
+Validation loss improved from 0.0412 to 0.0390.
+Epoch 1060 | Lossp: 0.49826 | Validation Loss: 0.04109
+Epoch 1070 | Lossp: 0.49247 | Validation Loss: 0.04529
+Epoch 1080 | Lossp: 0.48886 | Validation Loss: 0.03877
+Validation loss improved from 0.0390 to 0.0388.
+Epoch 1090 | Lossp: 0.49035 | Validation Loss: 0.03879

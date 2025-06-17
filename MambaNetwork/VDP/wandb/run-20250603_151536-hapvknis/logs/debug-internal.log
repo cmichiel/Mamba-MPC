@@ -1,0 +1,15 @@
+{"time":"2025-06-03T15:15:36.373276+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250603_151536-hapvknis\\logs\\debug-core.log"}
+{"time":"2025-06-03T15:15:37.1937769+02:00","level":"INFO","msg":"created new stream","id":"hapvknis"}
+{"time":"2025-06-03T15:15:37.194319+02:00","level":"INFO","msg":"stream: started","id":"hapvknis"}
+{"time":"2025-06-03T15:15:37.194319+02:00","level":"INFO","msg":"handler: started","stream_id":"hapvknis"}
+{"time":"2025-06-03T15:15:37.194319+02:00","level":"INFO","msg":"sender: started","stream_id":"hapvknis"}
+{"time":"2025-06-03T15:15:37.194319+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"hapvknis"}
+{"time":"2025-06-03T15:15:37.4766659+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-03T15:15:46.8327779+02:00","level":"INFO","msg":"stream: closing","id":"hapvknis"}
+{"time":"2025-06-03T15:15:46.8333212+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-03T15:15:46.8333212+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-03T15:15:47.7548075+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-03T15:15:48.0721283+02:00","level":"INFO","msg":"sender: closed","stream_id":"hapvknis"}
+{"time":"2025-06-03T15:15:48.072637+02:00","level":"INFO","msg":"handler: closed","stream_id":"hapvknis"}
+{"time":"2025-06-03T15:15:48.072637+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hapvknis"}
+{"time":"2025-06-03T15:15:48.072637+02:00","level":"INFO","msg":"stream: closed","id":"hapvknis"}

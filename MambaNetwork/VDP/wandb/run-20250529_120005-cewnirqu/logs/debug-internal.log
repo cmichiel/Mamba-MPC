@@ -1,0 +1,15 @@
+{"time":"2025-05-29T12:00:05.2651954+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250529_120005-cewnirqu\\logs\\debug-core.log"}
+{"time":"2025-05-29T12:00:06.0252051+02:00","level":"INFO","msg":"created new stream","id":"cewnirqu"}
+{"time":"2025-05-29T12:00:06.0257616+02:00","level":"INFO","msg":"stream: started","id":"cewnirqu"}
+{"time":"2025-05-29T12:00:06.0257616+02:00","level":"INFO","msg":"handler: started","stream_id":"cewnirqu"}
+{"time":"2025-05-29T12:00:06.0257616+02:00","level":"INFO","msg":"sender: started","stream_id":"cewnirqu"}
+{"time":"2025-05-29T12:00:06.0257616+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"cewnirqu"}
+{"time":"2025-05-29T12:00:06.3345389+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-29T12:00:10.776784+02:00","level":"INFO","msg":"stream: closing","id":"cewnirqu"}
+{"time":"2025-05-29T12:00:10.7773483+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-29T12:00:10.7773483+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-29T12:00:11.5458923+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-29T12:00:11.8525134+02:00","level":"INFO","msg":"sender: closed","stream_id":"cewnirqu"}
+{"time":"2025-05-29T12:00:11.8530208+02:00","level":"INFO","msg":"handler: closed","stream_id":"cewnirqu"}
+{"time":"2025-05-29T12:00:11.8530208+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cewnirqu"}
+{"time":"2025-05-29T12:00:11.8530208+02:00","level":"INFO","msg":"stream: closed","id":"cewnirqu"}

@@ -1,0 +1,54 @@
+u_data shape:torch.Size([10000, 1])
+y_data shape:torch.Size([10000, 1])
+u_test shape:torch.Size([2861, 1])
+y_test shape:torch.Size([2861, 1])
+Hankel Matrices Generated
+Hankel Matrices Generated
+Dataset Shape:torch.Size([9981, 20, 3])
+Test Dataset Shape:torch.Size([2841, 20, 3])
+Using GPU
+Initialized BestModelSaver. Will save best model to: State_dicts/ZOH_D8_dstate8_Conv4_ThomasNoiseSNR20_2
+Epoch 10 | Lossp: 0.21778 | Validation Loss: 0.05377
+Validation loss improved from inf to 0.0538.
+Epoch 20 | Lossp: 0.18108 | Validation Loss: 0.05070
+Validation loss improved from 0.0538 to 0.0507.
+Epoch 30 | Lossp: 0.16755 | Validation Loss: 0.04748
+Validation loss improved from 0.0507 to 0.0475.
+Epoch 40 | Lossp: 0.15849 | Validation Loss: 0.04532
+Validation loss improved from 0.0475 to 0.0453.
+Epoch 50 | Lossp: 0.15088 | Validation Loss: 0.04793
+Epoch 60 | Lossp: 0.14542 | Validation Loss: 0.04419
+Validation loss improved from 0.0453 to 0.0442.
+Epoch 70 | Lossp: 0.14383 | Validation Loss: 0.04707
+Epoch 80 | Lossp: 0.14047 | Validation Loss: 0.04556
+Epoch 90 | Lossp: 0.14154 | Validation Loss: 0.04554
+Epoch 100 | Lossp: 0.13872 | Validation Loss: 0.04203
+Validation loss improved from 0.0442 to 0.0420.
+Epoch 110 | Lossp: 0.13683 | Validation Loss: 0.04356
+Epoch 120 | Lossp: 0.13573 | Validation Loss: 0.03956
+Validation loss improved from 0.0420 to 0.0396.
+Epoch 130 | Lossp: 0.13518 | Validation Loss: 0.04008
+Epoch 140 | Lossp: 0.13410 | Validation Loss: 0.03384
+Validation loss improved from 0.0396 to 0.0338.
+Epoch 150 | Lossp: 0.13276 | Validation Loss: 0.03669
+Epoch 160 | Lossp: 0.13166 | Validation Loss: 0.03447
+Epoch 170 | Lossp: 0.13070 | Validation Loss: 0.03385
+Epoch 180 | Lossp: 0.13000 | Validation Loss: 0.03303
+Validation loss improved from 0.0338 to 0.0330.
+Epoch 190 | Lossp: 0.12874 | Validation Loss: 0.03741
+Traceback (most recent call last):
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 351, in <module>
+    Val_loss, Train_loss = PredictWithData(train_dataloader, test_dataloader)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 196, in PredictWithData
+    wandb.save(filepath="State_dicts/" + filename)
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 464, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 451, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Run.save() got an unexpected keyword argument 'filepath'

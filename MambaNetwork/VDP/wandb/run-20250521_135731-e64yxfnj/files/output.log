@@ -1,0 +1,10 @@
+u_data shape:torch.Size([80000, 1])
+y_data shape:torch.Size([80000, 1])
+u_test shape:torch.Size([2831, 1])
+y_test shape:torch.Size([2831, 1])
+Hankel Matrices Generated
+Hankel Matrices Generated
+Dataset Shape:torch.Size([79957, 40, 6])
+Test Dataset Shape:torch.Size([2788, 40, 6])
+Using GPU
+Initialized BestModelSaver. Will save best model to: State_dicts/Tustin_D8_dstate8_Conv4_ThomasLarge_N40

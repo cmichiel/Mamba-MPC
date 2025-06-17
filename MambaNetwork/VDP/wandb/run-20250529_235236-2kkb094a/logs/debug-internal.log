@@ -1,0 +1,16 @@
+{"time":"2025-05-29T23:52:36.3208315+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250529_235236-2kkb094a\\logs\\debug-core.log"}
+{"time":"2025-05-29T23:52:37.1342114+02:00","level":"INFO","msg":"created new stream","id":"2kkb094a"}
+{"time":"2025-05-29T23:52:37.1342114+02:00","level":"INFO","msg":"handler: started","stream_id":"2kkb094a"}
+{"time":"2025-05-29T23:52:37.1342114+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"2kkb094a"}
+{"time":"2025-05-29T23:52:37.1347552+02:00","level":"INFO","msg":"stream: started","id":"2kkb094a"}
+{"time":"2025-05-29T23:52:37.1347552+02:00","level":"INFO","msg":"sender: started","stream_id":"2kkb094a"}
+{"time":"2025-05-29T23:52:37.4463587+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-30T09:22:40.8548949+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/MambaDeePC/uncategorized/2kkb094a/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-30T13:58:56.6208634+02:00","level":"INFO","msg":"stream: closing","id":"2kkb094a"}
+{"time":"2025-05-30T13:58:56.6208634+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-30T13:58:56.6220544+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-30T13:58:57.5225425+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-30T13:58:57.7063363+02:00","level":"INFO","msg":"handler: closed","stream_id":"2kkb094a"}
+{"time":"2025-05-30T13:58:57.7063363+02:00","level":"INFO","msg":"sender: closed","stream_id":"2kkb094a"}
+{"time":"2025-05-30T13:58:57.7063363+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2kkb094a"}
+{"time":"2025-05-30T13:58:57.7670297+02:00","level":"INFO","msg":"stream: closed","id":"2kkb094a"}

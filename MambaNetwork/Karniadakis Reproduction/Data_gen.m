@@ -1,0 +1,52 @@
+clc, clear all, close all
+
+%% Parameters
+%% Parameters
+domain_T = 1; % Length of the domain
+num_points = 100; % Number of points in the domain
+length_scale = 0.2; % The desired length scale of the GRF
+
+%% Create the spatial grid
+x = linspace(0, domain_T, num_points)'; % Column vector of spatial points
+
+%% Create the spatial grid
+
+K = zeros(num_points, num_points);
+Trainset = 10000;
+u_data = [];
+for k = 1:Trainset
+    for i = 1:num_points
+        for j = 1:num_points
+            r = abs(x(i) - x(j)); % Distance between points
+            K(i, j) = exp(-(r^2) / (2 * length_scale^2));
+        end
+    end
+    jitter = 1e-6;
+    K = K + jitter * eye(num_points);
+    L = chol(K, 'lower');
+    z = randn(num_points, 1);
+    grf_input = L * z;
+    u_data = [u_data, grf_input];
+end
+%% Optionally, visualize the generated GRF
+plot(x, u_data);
+xlabel('Spatial Coordinate');
+ylabel('GRF Value');
+title('1D Gaussian Random Field Realization (Mean 0, Length Scale 0.2)');
+grid on;
+%%
+xk = [0,0];
+y_data = zeros(num_points, Trainset);
+Ts = 1/100;
+for j = 1:Trainset
+    xk = [0,0];
+    for i=1:num_points
+        xk = [xk(1) + Ts*xk(2); 
+            xk(2)+Ts*(-sin(xk(1))+u_data(i,j))];
+        y_data(i,j) = xk(1);
+    end
+end
+
+%%
+save('Datasets/u_dataVal.mat',"u_data")
+save('Datasets/y_dataVal.mat',"y_data")

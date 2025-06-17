@@ -1,0 +1,55 @@
+{"time":"2025-05-21T14:28:30.8767457+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250521_142830-tfk56y9b\\logs\\debug-core.log"}
+{"time":"2025-05-21T14:28:31.1651668+02:00","level":"INFO","msg":"created new stream","id":"tfk56y9b"}
+{"time":"2025-05-21T14:28:31.1651668+02:00","level":"INFO","msg":"stream: started","id":"tfk56y9b"}
+{"time":"2025-05-21T14:28:31.1651668+02:00","level":"INFO","msg":"handler: started","stream_id":"tfk56y9b"}
+{"time":"2025-05-21T14:28:31.1657297+02:00","level":"INFO","msg":"sender: started","stream_id":"tfk56y9b"}
+{"time":"2025-05-21T14:28:31.1657297+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"tfk56y9b"}
+{"time":"2025-05-21T14:28:31.4279298+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-21T14:30:16.4503117+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:30:31.455026+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:30:46.4516057+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:31:01.4534236+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:31:16.4490722+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:31:31.4496155+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:31:46.455798+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:32:01.4507559+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:32:16.4505607+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:32:31.4514532+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:32:46.450236+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:33:01.4502483+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:33:16.4506881+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:33:31.4543702+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:33:46.4541445+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:34:01.4558184+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:34:16.4552099+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:34:31.4529009+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:34:32.0487147+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/MambaDeePC/uncategorized/tfk56y9b/file_stream"}
+{"time":"2025-05-21T14:34:32.0487147+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/MambaDeePC/uncategorized/tfk56y9b/file_stream: {\"error\":\"run uncategorized/tfk56y9b not found while streaming file\"}"}
+{"time":"2025-05-21T14:34:46.4508807+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:35:01.4562268+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:35:16.4507013+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:35:31.4521815+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:35:46.4531287+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:36:01.44956+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:36:16.4501244+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:36:31.4494263+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:36:46.454037+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:37:01.4503368+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:37:16.4520982+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:37:31.4512552+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:37:46.4591884+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:38:01.4594427+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:38:16.4527931+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:38:31.4560483+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:38:46.4558467+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:39:01.4478766+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:39:16.4512406+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:39:31.4527736+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:39:46.4508629+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:40:01.4499704+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:40:16.4540039+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:40:31.4509473+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:40:46.4530978+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:41:01.4575327+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:41:16.4585676+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}
+{"time":"2025-05-21T14:41:31.4485313+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 43360"}

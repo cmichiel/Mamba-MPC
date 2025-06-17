@@ -1,0 +1,76 @@
+u_data shape:torch.Size([10000, 1])
+y_data shape:torch.Size([10000, 1])
+u_test shape:torch.Size([2831, 1])
+y_test shape:torch.Size([2831, 1])
+Hankel Matrices Generated
+Hankel Matrices Generated
+Dataset Shape:torch.Size([9977, 20, 6])
+Test Dataset Shape:torch.Size([2808, 20, 6])
+Using GPU
+Initialized BestModelSaver. Will save best model to: State_dicts/Tustin_D8_dstate8_Conv4_Thomas_N20
+Epoch 10 | Lossp: 0.34008 | Validation Loss: 0.12343
+Validation loss improved from inf to 0.1234.
+Epoch 20 | Lossp: 0.05663 | Validation Loss: 0.04665
+Validation loss improved from 0.1234 to 0.0467.
+Epoch 30 | Lossp: 0.04254 | Validation Loss: 0.04143
+Validation loss improved from 0.0467 to 0.0414.
+Epoch 40 | Lossp: 0.03109 | Validation Loss: 0.02659
+Validation loss improved from 0.0414 to 0.0266.
+Epoch 50 | Lossp: 0.02474 | Validation Loss: 0.02193
+Validation loss improved from 0.0266 to 0.0219.
+Epoch 60 | Lossp: 0.02099 | Validation Loss: 0.01658
+Validation loss improved from 0.0219 to 0.0166.
+Epoch 70 | Lossp: 0.01817 | Validation Loss: 0.01420
+Validation loss improved from 0.0166 to 0.0142.
+Epoch 80 | Lossp: 0.01587 | Validation Loss: 0.01266
+Validation loss improved from 0.0142 to 0.0127.
+Epoch 90 | Lossp: 0.01378 | Validation Loss: 0.01169
+Validation loss improved from 0.0127 to 0.0117.
+Epoch 100 | Lossp: 0.01187 | Validation Loss: 0.01067
+Validation loss improved from 0.0117 to 0.0107.
+Epoch 110 | Lossp: 0.01090 | Validation Loss: 0.00999
+Validation loss improved from 0.0107 to 0.0100.
+Epoch 120 | Lossp: 0.00970 | Validation Loss: 0.01007
+Epoch 130 | Lossp: 0.00897 | Validation Loss: 0.00899
+Validation loss improved from 0.0100 to 0.0090.
+Epoch 140 | Lossp: 0.00734 | Validation Loss: 0.00736
+Validation loss improved from 0.0090 to 0.0074.
+Epoch 150 | Lossp: 0.00697 | Validation Loss: 0.00690
+Validation loss improved from 0.0074 to 0.0069.
+Epoch 160 | Lossp: 0.00609 | Validation Loss: 0.00659
+Validation loss improved from 0.0069 to 0.0066.
+Epoch 170 | Lossp: 0.00556 | Validation Loss: 0.00598
+Validation loss improved from 0.0066 to 0.0060.
+Epoch 180 | Lossp: 0.00508 | Validation Loss: 0.00533
+Validation loss improved from 0.0060 to 0.0053.
+Epoch 190 | Lossp: 0.00494 | Validation Loss: 0.00487
+Validation loss improved from 0.0053 to 0.0049.
+Epoch 200 | Lossp: 0.00471 | Validation Loss: 0.00475
+Validation loss improved from 0.0049 to 0.0048.
+Epoch 210 | Lossp: 0.00434 | Validation Loss: 0.00423
+Validation loss improved from 0.0048 to 0.0042.
+Epoch 220 | Lossp: 0.00420 | Validation Loss: 0.00401
+Validation loss improved from 0.0042 to 0.0040.
+Epoch 230 | Lossp: 0.00417 | Validation Loss: 0.00387
+Validation loss improved from 0.0040 to 0.0039.
+Epoch 240 | Lossp: 0.00446 | Validation Loss: 0.00361
+Validation loss improved from 0.0039 to 0.0036.
+Epoch 250 | Lossp: 0.00379 | Validation Loss: 0.00351
+Validation loss improved from 0.0036 to 0.0035.
+Epoch 260 | Lossp: 0.00400 | Validation Loss: 0.00318
+Validation loss improved from 0.0035 to 0.0032.
+Epoch 270 | Lossp: 0.00337 | Validation Loss: 0.00323
+Epoch 280 | Lossp: 0.00360 | Validation Loss: 0.00306
+Validation loss improved from 0.0032 to 0.0031.
+Epoch 290 | Lossp: 0.00326 | Validation Loss: 0.00300
+Validation loss improved from 0.0031 to 0.0030.
+Epoch 300 | Lossp: 0.00320 | Validation Loss: 0.00305
+Epoch 310 | Lossp: 0.00287 | Validation Loss: 0.00277
+Validation loss improved from 0.0030 to 0.0028.
+Epoch 320 | Lossp: 0.00271 | Validation Loss: 0.00285
+Epoch 330 | Lossp: 0.00261 | Validation Loss: 0.00260
+Validation loss improved from 0.0028 to 0.0026.
+Epoch 340 | Lossp: 0.00243 | Validation Loss: 0.00253
+Validation loss improved from 0.0026 to 0.0025.
+Epoch 350 | Lossp: 0.00244 | Validation Loss: 0.00247
+Validation loss improved from 0.0025 to 0.0025.

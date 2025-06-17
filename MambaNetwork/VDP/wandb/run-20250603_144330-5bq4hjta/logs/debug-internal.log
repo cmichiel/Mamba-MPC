@@ -1,0 +1,15 @@
+{"time":"2025-06-03T14:43:31.0797183+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250603_144330-5bq4hjta\\logs\\debug-core.log"}
+{"time":"2025-06-03T14:43:31.4277038+02:00","level":"INFO","msg":"created new stream","id":"5bq4hjta"}
+{"time":"2025-06-03T14:43:31.4277038+02:00","level":"INFO","msg":"handler: started","stream_id":"5bq4hjta"}
+{"time":"2025-06-03T14:43:31.4277038+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"5bq4hjta"}
+{"time":"2025-06-03T14:43:31.4282349+02:00","level":"INFO","msg":"stream: started","id":"5bq4hjta"}
+{"time":"2025-06-03T14:43:31.4282349+02:00","level":"INFO","msg":"sender: started","stream_id":"5bq4hjta"}
+{"time":"2025-06-03T14:43:31.7624654+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-03T14:45:17.1446567+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/MambaDeePC/uncategorized/5bq4hjta/file_stream\": unexpected EOF"}
+{"time":"2025-06-03T14:54:01.7929764+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 77296"}
+{"time":"2025-06-03T14:54:16.7910629+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 77296"}
+{"time":"2025-06-03T14:54:31.7996497+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 77296"}
+{"time":"2025-06-03T14:54:46.7963641+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 77296"}
+{"time":"2025-06-03T14:55:01.7976316+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 77296"}
+{"time":"2025-06-03T14:55:16.7959479+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 77296"}
+{"time":"2025-06-03T14:55:31.7935314+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 77296"}

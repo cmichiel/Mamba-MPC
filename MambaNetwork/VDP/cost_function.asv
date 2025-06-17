@@ -1,0 +1,18 @@
+function J = cost_function(u, ref, u_ini, y_ini, N, Ts,Omega,R,Rd,S, u_init, LinearInWeight, LinearInBias, LinearExpansionWeight, SelectionProjectionWeight, DeltaTProjectionWeight, DeltaTProjectionBias, A, LinearReductionWeight, LinearOutputWeight, LinearOutputBias,d_inner, d_state)
+    % u_seq: Sequence of control inputs [u(1), u(2), ..., u(N)]
+    % x0: Initial state
+    % y_ref: Desired reference output
+    % N: Prediction horizon
+    % dt: Time step
+    J = 0;
+    inputs = [u_ini',y_ini',u];
+    y = Mamba(inputs, LinearInWeight, LinearInBias, LinearExpansionWeight, SelectionProjectionWeight, DeltaTProjectionWeight, DeltaTProjectionBias, A, LinearReductionWeight, LinearOutputWeight, LinearOutputBias,d_inner, d_state);
+    y = output_function(x);
+    J = J + (y - ref)'*Omega*(y - ref) + (u(1)-u_init)'*Rd*(u(1)-u_init) + u(N)'*R*u(N);
+    J = J + (y(N) - ref(N))'*S*(y(N) - ref(N));
+    for k = 1:N-1       
+        % Define your output function
+        J = J + u(k)'*R*u(k); % Output tracking error
+        J = J + (u(k+1)-u(k))'*Rd*(u(k+1)-u(k)); % Control effort penalty
+    end
+end

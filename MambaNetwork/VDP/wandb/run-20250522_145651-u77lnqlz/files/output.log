@@ -1,0 +1,83 @@
+u_data shape:torch.Size([40000, 1])
+y_data shape:torch.Size([40000, 1])
+u_test shape:torch.Size([2831, 1])
+y_test shape:torch.Size([2831, 1])
+Hankel Matrices Generated
+Hankel Matrices Generated
+Dataset Shape:torch.Size([39917, 80, 6])
+Test Dataset Shape:torch.Size([2748, 80, 6])
+Using GPU
+Initialized BestModelSaver. Will save best model to: State_dicts/FE_D32_dstate16_Conv4_ThomasLarge_N80
+Epoch 10 | Lossp: 64.44939 | Validation Loss: 1.70063
+Validation loss improved from inf to 1.7006.
+Epoch 20 | Lossp: 62.49772 | Validation Loss: 1.72533
+Epoch 30 | Lossp: 59.10675 | Validation Loss: 1.66467
+Validation loss improved from 1.7006 to 1.6647.
+Epoch 40 | Lossp: 52.08165 | Validation Loss: 1.69717
+Epoch 50 | Lossp: 47.17356 | Validation Loss: 1.65187
+Validation loss improved from 1.6647 to 1.6519.
+Epoch 60 | Lossp: 43.43243 | Validation Loss: 1.64328
+Validation loss improved from 1.6519 to 1.6433.
+Epoch 70 | Lossp: 39.43702 | Validation Loss: 1.49653
+Validation loss improved from 1.6433 to 1.4965.
+Epoch 80 | Lossp: 36.76841 | Validation Loss: 1.39123
+Validation loss improved from 1.4965 to 1.3912.
+Epoch 90 | Lossp: 33.67771 | Validation Loss: 1.48108
+Epoch 100 | Lossp: 30.73595 | Validation Loss: 1.95332
+Epoch 110 | Lossp: 27.84137 | Validation Loss: 2.13875
+Epoch 120 | Lossp: 26.12595 | Validation Loss: 2.04779
+Epoch 130 | Lossp: 24.87497 | Validation Loss: 1.96127
+C:\Users\Michiel\anaconda3\Lib\site-packages\torch\autograd\graph.py:823: UserWarning: Error detected in ViewBackward0. Traceback of forward call that caused the error:
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 315, in <module>
+    Val_loss, Train_loss = PredictWithData(train_dataloader, test_dataloader)
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 144, in PredictWithData
+    z = clf(X)
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 118, in forward
+    x = self.mamba(x)
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\mamba_model.py", line 77, in forward
+    x = layer(x)
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\mamba_model.py", line 106, in forward
+    output = self.mixer(self.norm(x)) + x
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\mamba_model.py", line 181, in forward
+    xz = self.in_proj(x) # (B, L, 2*ED)
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+ (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_anomaly_mode.cpp:127.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Traceback (most recent call last):
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 315, in <module>
+    Val_loss, Train_loss = PredictWithData(train_dataloader, test_dataloader)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 147, in PredictWithData
+    loss.backward()
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\Michiel\anaconda3\Lib\site-packages\torch\autograd\graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

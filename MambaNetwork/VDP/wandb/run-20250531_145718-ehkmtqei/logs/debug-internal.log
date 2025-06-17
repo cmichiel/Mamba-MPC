@@ -1,0 +1,81 @@
+{"time":"2025-05-31T14:57:18.5059531+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250531_145718-ehkmtqei\\logs\\debug-core.log"}
+{"time":"2025-05-31T14:57:19.4044096+02:00","level":"INFO","msg":"created new stream","id":"ehkmtqei"}
+{"time":"2025-05-31T14:57:19.4044096+02:00","level":"INFO","msg":"stream: started","id":"ehkmtqei"}
+{"time":"2025-05-31T14:57:19.4044096+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"ehkmtqei"}
+{"time":"2025-05-31T14:57:19.4044096+02:00","level":"INFO","msg":"handler: started","stream_id":"ehkmtqei"}
+{"time":"2025-05-31T14:57:19.4044096+02:00","level":"INFO","msg":"sender: started","stream_id":"ehkmtqei"}
+{"time":"2025-05-31T14:57:19.8181008+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-31T14:59:49.8401673+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:00:04.8389405+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:00:19.835817+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:00:34.838357+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:00:49.8352083+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:01:04.8413597+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:01:19.8373476+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:01:34.8374832+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:01:49.8373105+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:02:04.838322+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:02:19.8345796+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:02:34.8378012+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:02:49.8383846+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:03:04.8413119+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:03:19.8382653+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:03:34.8412877+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:03:49.8333968+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:04:04.8324382+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:04:19.8420067+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:04:34.8368794+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:04:49.8360902+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:05:04.8354783+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:05:19.8366699+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:05:34.8419348+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:05:49.832158+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:06:04.8338093+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:06:19.8323655+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:06:34.8320887+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:06:49.8331357+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:07:04.86125+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:07:19.8355021+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:07:34.8340173+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:07:49.8311013+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:08:04.8325372+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:08:19.8314427+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:08:34.8408439+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:08:49.8357964+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:09:04.8359757+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:09:19.8366623+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:09:34.8382314+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:09:49.8351492+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:10:04.8361562+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:10:19.8308962+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:10:34.8315764+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:10:49.8312247+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:11:04.8347057+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:11:19.8347406+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:11:34.8315632+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:11:49.8353399+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:12:04.8275523+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:12:19.8305023+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:12:34.8318959+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:12:49.8300567+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:13:04.829661+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:13:19.8295095+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:13:34.8301248+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:13:49.8275703+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:14:04.8301722+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:14:19.8439009+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:14:34.8450943+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:14:49.8278708+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:15:04.8280932+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:15:19.8285608+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:15:34.8269578+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:15:49.8271204+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:16:04.8510171+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:16:19.8255533+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:16:34.8265222+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:16:49.8273741+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:17:04.8273881+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:17:19.8266164+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:17:34.8263903+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:17:49.8260867+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
+{"time":"2025-05-31T15:18:04.8289358+02:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 50144"}
