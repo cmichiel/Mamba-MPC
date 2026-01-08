@@ -1,7 +1,0 @@
-{"time":"2025-05-25T10:09:09.0353106+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\Michiel\\OneDrive - TU Eindhoven\\Masters\\Thesis\\MambaNetwork\\VDP\\wandb\\run-20250525_100908-bbuetvaf\\logs\\debug-core.log"}
-{"time":"2025-05-25T10:09:09.7297196+02:00","level":"INFO","msg":"created new stream","id":"bbuetvaf"}
-{"time":"2025-05-25T10:09:09.7297196+02:00","level":"INFO","msg":"handler: started","stream_id":"bbuetvaf"}
-{"time":"2025-05-25T10:09:09.7297196+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"bbuetvaf"}
-{"time":"2025-05-25T10:09:09.7297196+02:00","level":"INFO","msg":"stream: started","id":"bbuetvaf"}
-{"time":"2025-05-25T10:09:09.7297196+02:00","level":"INFO","msg":"sender: started","stream_id":"bbuetvaf"}
-{"time":"2025-05-25T10:09:10.039162+02:00","level":"INFO","msg":"Starting system monitor"}

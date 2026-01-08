@@ -1,4 +1,0 @@
-Epoch 10 | Lossp: 0.88145 | Validation Loss: 0.15199
-Validation loss improved from inf to 0.1520.
-Epoch 20 | Lossp: 0.74486 | Validation Loss: 0.10599
-Validation loss improved from 0.1520 to 0.1060.

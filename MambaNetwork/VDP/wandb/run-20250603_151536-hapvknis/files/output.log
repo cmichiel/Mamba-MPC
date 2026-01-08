@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\Michiel\OneDrive - TU Eindhoven\Masters\Thesis\MambaNetwork\VDP\main.py", line 214, in <module>
-    x_data = mat["x"]
-             ~~~^^^^^
-KeyError: 'x'
