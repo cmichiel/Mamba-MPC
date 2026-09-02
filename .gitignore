@@ -1,0 +1,17 @@
+# Scratch folder holding the raw experiment tree and the paper PDF.
+# Kept locally as provenance; not part of the published repository.
+background/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

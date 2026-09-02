@@ -1,193 +1,159 @@
-# Mamba Model Predictive Control
+# Mamba-MPC
 
-This repository contains supplementary code for the paper:  
-**Mamba Neural Networks meets Model Predictive Control**.
+Companion code for **[Mamba Sequence Modeling Meets Model Predictive Control][paper]**
+— M. Cevaal, T. O. de Jong, M. Lazar, *IEEE Open Journal of Control Systems*, 2026.
 
-We demonstrate the application of Mamba networks in the context of Model Predictive Control (MPC)  across two simulated nonlinear dynamical system and one physical setup.
+The paper builds model predictive control on a Mamba state-space network used as a
+multi-step predictor, and compares it against LSTM and Transformer predictors on two
+numerical examples and one physical system.
 
----
+[paper]: https://ieeexplore.ieee.org/document/11657796
 
-## 📁 Repository Structure
+## What is here
 
-The repository contains implementations for both physical and simulated systems:
+| Experiment | Mamba | LSTM | Transformer |
+|---|:---:|:---:|:---:|
+| Van der Pol — stabilisation from 100 initial conditions | ✓ | — | — |
+| Van der Pol — reference tracking | ✓ | ✓ | ✓ |
+| Van der Pol — computation time vs horizon | ✓ | ✓ | ✓ |
+| Van der Pol — noise (SNR 20 dB) | ✓ | ✓ | — |
+| Four Tank — MIMO reference tracking | ✓ | ✓ | — |
+| Quanser Aero2 — hardware | ✓ | — | — |
 
-- **`Aero2/`** — Physical 2-DOF helicopter system implementation
-- **`Numerical_Examples/`** — Simulated nonlinear dynamical systems
-  - `Four_Tank/` — Four-tank system simulation
-  - `Van_der_Pol/` — Van der Pol oscillator simulation
-
-### Aero2 Folder Contents:
-
-- `MambaMPC_Aero2.ipynb` — Main notebook for training and MPC simulation on the Aero2 system
-- `MambaMPC/` — Core Mamba-MPC implementation
-  - `mamba_model.py` — Mamba neural network architecture
-  - `MambaCasadi.py` — CasADi-compatible Mamba model for MPC
-  - `functions.py` — Utility functions
-  - `DataProcessing.py` — Data preprocessing and handling
-  - `plotting.py` — Visualization utilities
-  - `pscan.py` — Parallel scan implementation
-- `Data/` — Training and test datasets (`.npy` files)
-- `State_dicts/` — Saved model checkpoints
-- `Figures/` — Generated plots and visualizations
-- `hal/`, `pal/`, `pit/`, `qvl/` — Quanser hardware interface libraries
-
-### Numerical_Examples Folder Contents:
-
-Each subfolder (`Four_Tank/`, `Van_der_Pol/`) includes:
-
-- `MambaMPC_[SystemName].ipynb` — Simulation and training notebook for the respective system
-- `MambaMPC/` — Mamba-MPC implementation (same structure as Aero2)
-  - `mamba_model.py` — Mamba neural network architecture
-  - `MambaCasadi.py` — CasADi-compatible Mamba model
-  - `functions.py` — System-specific utility functions
-  - `DataProcessing.py` — Data preprocessing utilities
-  - `plotting.py` — Visualization tools
-  - `pscan.py` — Parallel scan implementation
-- `Data/` — Generated training/validation datasets
-- `data_Mamba/` or `Data_Mamba/` — Mamba-specific results and data
-- `data_LSTM/` — LSTM comparison results (where applicable)
-- `State_dicts/` — Saved model weights
-- `Figures/` — Generated plots and results
-- `LSTM/` — LSTM implementation for comparison (Van der Pol only)
-
----
-
-## 📦 Requirements
-
-Python 3.11.7 is recommended for running the examples.
-
-## 📓 Development Environment
-- `jupyter` — For running and developing in Jupyter Notebooks
-
-## 🧰 Dependencies
-
-This project requires the following Python libraries:
-
-### Core Libraries
-- `numpy` — Numerical computing and array operations
-- `scipy` — Scientific computing (integration, linear algebra)
-- `matplotlib` — Plotting and visualization
-- `torch` (PyTorch) — Deep learning framework for Mamba neural networks
-- `casadi` — Symbolic framework for nonlinear optimization and MPC
-
-### Mamba-Specific Dependencies 
-- `einops` — Tensor operations for rearrange, repeat, and einsum
-
-### Hardware Interface (Aero2 only)
-- `pal` (Quanser Python API for Linux) — Interface for Quanser Aero2 hardware
-
-### Standard Library
-- `time` — Timing utilities
-- `itertools` — Iterator building blocks
-- `os` — Operating system interface
-- `math` — Mathematical functions
-- `dataclasses` — Data class decorators
-
----
-
-## 🚀 How to Run
-
-### For Numerical Examples:
-
-1. Clone or download the repository
-
-2. Navigate to one of the numerical example folders:
-
-```bash
-cd "Numerical_ Examples/Van_der_Pol"
+```
+mambampc/              importable package — everything reusable lives here
+  models/              PyTorch: Mamba, LSTM, Transformer
+  casadi_models.py     CasADi twins of all three, for embedding in the optimiser
+  mpc.py               the optimal control problem builder
+  simulate.py          the closed-loop MPC simulation
+  systems.py           plant dynamics and excitation signals
+  data.py              Hankel / sequence construction, checkpoint saving
+  plotting.py          the paper's figure style, one builder per paper figure
+experiments/
+  van_der_pol/         notebook + data/ checkpoints/ results/ figures/
+  four_tank/           idem
+  aero2/               idem, plus the vendored Quanser SDK
 ```
 
-or
+Each experiment is one notebook that sets up the study and plots it. All the machinery
+it calls is in `mambampc`, so the same Mamba definition, the same CasADi translation and
+the same MPC problem are shared by every experiment.
+
+## Installation
 
 ```bash
-cd "Numerical_ Examples/Four_Tank"
+git clone https://github.com/cmichiel/Mamba-MPC.git
+cd Mamba-MPC
+pip install -r requirements.txt
+jupyter notebook experiments/van_der_pol/van_der_pol.ipynb
 ```
 
-3. Launch Jupyter Notebook:
+Python 3.11 or newer. The notebooks add the repository root to `sys.path`, so no install
+step is needed. A GPU helps for training but nothing here requires one — **every figure
+can be regenerated on CPU** (Aero2 replots from its stored hardware run).
 
-```bash
-jupyter notebook
-```
+**The figures need LaTeX.** `mambampc/plotting.py` renders all text with
+`text.usetex = True`, which is how the paper's figures were typeset, so producing them
+requires a TeX distribution providing `latex` and `dvipng` — TeX Live, MiKTeX or MacTeX.
+Everything else — data generation, training, closed-loop control — runs without it;
+only the figure cells need it.
 
-4. Open the main notebook:
-   - `MambaMPC_VDP.ipynb` for Van der Pol oscillator
-   - `MambaMPC_FourTank.ipynb` for Four-Tank system
+The Aero2 experiment additionally needs the Quanser Python SDK (`hal`, `pal`, `pit`,
+`qvl`, vendored under `experiments/aero2/`) and the physical rig.
 
-5. Run all code cells from top to bottom
+## Reproducing the results
 
-### For Physical Aero2 Setup:
+**From the shipped checkpoints (minutes, CPU).** Open a notebook and skip the data
+generation and training sections; everything downstream runs from `checkpoints/`. This
+is the path to regenerate the figures.
 
-1. Ensure the Quanser Aero2 hardware is connected and the `pal` library is installed
+The figures are the paper's, not lookalikes: each experiment's plotting cell calls a
+builder in `mambampc/plotting.py` that reproduces the corresponding figure's palette,
+layout and typography. Each lands in the experiment's `figures/` as both `.png` and
+`.pdf`. Van der Pol produces paper Figures 7, 8, 9 and 11, Four Tank Figure 12, and
+Aero2 Figure 14.
 
-2. Navigate to the Aero2 folder:
+**From scratch (hours, GPU recommended).** Run the notebook top to bottom. Data
+generation and training are the expensive parts; the closed-loop sections are the same
+either way.
 
-```bash
-cd Aero2
-```
+## What reproduces, and what does not
 
-3. Launch Jupyter Notebook:
+This section is deliberately explicit, because parts of the study are reproducible and
+parts are not.
 
-```bash
-jupyter notebook
-```
+**Re-runnable end to end:** the Van der Pol and Four Tank experiments — data generation,
+training, closed-loop control, and figures.
 
-4. Open `MambaMPC_Aero2.ipynb` and run all code cells from top to bottom
+**Training is not bit-reproducible.** The shipped checkpoints are the ones behind the
+paper's numbers and are the artifacts of record. The code now seeds NumPy and PyTorch, so
+a fresh training run is repeatable, but those seeds were added after the paper's models
+were trained. Retraining therefore gives a comparable model, not an identical one.
 
----
+**Closed-loop trajectories reproduce closely, not exactly.** Regenerating the Van der Pol
+reference-tracking run matches the stored trajectory to a median of 3.5e-4, with
+deviations up to 0.29 confined to transients at reference steps. The nonlinear program is
+nonconvex and CasADi/IPOPT has changed versions since the original runs, so exact
+numerical reproduction is not achievable. The figures are visually indistinguishable.
 
-## 📊 What Each Notebook Does
+**The Transformer is re-plottable but not re-runnable.** Its trained weights were not
+recoverable. `results/transformer/` holds the stored closed-loop trajectories behind the
+paper's comparison figure, and `mambampc/models/transformer.py` and the CasADi twin are
+the model code, so the method is fully inspectable — but the specific network that
+produced those trajectories cannot be reloaded. Its configuration was `depth=3, heads=4,
+mlp_dim=32, hidden_dim=8, num_frames=50`, SiLU activation, attention temperature 2.5.
 
-Each notebook performs the following steps:
+**Computation time is replotted, not re-timed.** Paper Figure 9 is drawn from the solve
+times recorded for the paper (`results/*/comp_time_vs_N.npy`), which were measured on an
+RTX 4070 and a Ryzen 9 7845HX. Re-running would time your machine instead, so the stored
+records are the artifacts of record for that figure.
 
-- **Data Generation**: Generate or load training and validation data from the dynamical system
-- **Model Training**: Train the Mamba neural network architecture with the generated data
-- **MPC Simulation**: Run closed-loop Model Predictive Control using the trained Mamba model
-- **Results Storage**: Save trained models to `State_dicts/` and data to `Data/`, `data_Mamba/`, or `data_LSTM/` folders
-- **Visualization**: Generate plots comparing Mamba-MPC performance with baseline methods (LSTM-MPC where applicable)
+**The two Monte-Carlo studies redraw their random samples.** Paper Figure 7 samples 100
+initial states and Figure 11 samples 100 noise realisations; the seeds behind the paper's
+runs were not recorded. The arrays shipped in `results/` are the paper's, so the figures
+as committed are the paper's — but re-running those sections overwrites them with a fresh
+draw. The figure is then the same in every other respect (layout, palette, spread) while
+the individual trajectories are not the paper's.
 
-**Numerical Examples** demonstrate:
-- Reference tracking capabilities
-- Comparison with LSTM-based MPC
-- Robustness to noise (Van der Pol)
-- Multi-input multi-output control (Four-Tank)
+**Aero2 cannot be re-run without the hardware.** Its notebook keeps the outputs from the
+original run as the record of the experiment. The model and controller code are shared
+with the numerical examples, and every shipped checkpoint was checked to agree with its
+CasADi twin to ~1e-15, so everything except the physical run is verifiable offline.
 
-**Aero2 Example** demonstrates:
-- Real-time control on physical hardware
-- Data collection from the 2-DOF helicopter system
-- Closed-loop tracking performance on a real system
-
----
-<!-- 
-## 📄 Citation
-
-If you use this code in your work, please cite the following paper:
+## Citation
 
 ```bibtex
-@misc{dejong2025deepoperatorneuralnetwork,
-      title={Deep Operator Neural Network Model Predictive Control}, 
-      author={Thomas Oliver de Jong and Khemraj Shukla and Mircea Lazar},
-      year={2025},
-      eprint={2505.18008},
-      archivePrefix={arXiv},
-      primaryClass={math.OC},
-      url={https://arxiv.org/abs/2505.18008}, 
+@article{cevaal2026mamba,
+  title   = {Mamba Sequence Modeling Meets Model Predictive Control},
+  author  = {Cevaal, Michiel and de Jong, Thomas O. and Lazar, Mircea},
+  journal = {IEEE Open Journal of Control Systems},
+  year    = {2026},
+  pages   = {1--15},
+  doi     = {10.1109/OJCSYS.2026.3724785},
+  issn    = {2694-085X}
 }
-``` -->
+```
 
----
+## Licence
 
-## 📬 Contact
+MIT — see [LICENSE](LICENSE).
 
-We welcome questions, feedback, and collaboration opportunities!
+The Mamba blocks and the parallel scan come from [mamba.py][mambapy] (MIT, © 2024
+Alexandre TL); its licence is reproduced in
+[mambampc/models/LICENSE-mamba.py](mambampc/models/LICENSE-mamba.py). The matplotlib
+style in `mambampc/plotting.py` is the helper published with the PINNs code of Raissi et
+al., credited in that file.
 
-- 📧 **Primary contact**: [m.cevaal@tilburguniversity.edu](mailto:m.cevaal@tilburguniversity.edu)
-- 📧 **Co-authors**:
-  - [t.o.d.jong@tue.nl](mailto:t.o.d.jong@tue.nl)
-  - [m.lazar@tue.nl](mailto:m.lazar@tue.nl)
+The [Quanser Academic Resources][quanser] SDK (`hal/`, `pal/`, `pit/`, `qvl/`) is vendored
+unmodified under `experiments/aero2/` and is redistributed under its own BSD 3-Clause
+licence, reproduced with its copyright notice in
+[experiments/aero2/LICENSE-Quanser](experiments/aero2/LICENSE-Quanser).
+`pit/LaneNet/architecture/` carries a further MIT licence of its own.
 
-Feel free to reach out via email for more information about this project or related research.
+[quanser]: https://github.com/quanser/Quanser_Academic_Resources
+[mambapy]: https://github.com/alxndrTL/mamba.py
 
+## Contact
 
-
-
-
+Michiel Cevaal — <m.cevaal@tilburguniversity.edu>
+Thomas O. de Jong — <t.o.d.jong@tue.nl> · Mircea Lazar — <m.lazar@tue.nl>

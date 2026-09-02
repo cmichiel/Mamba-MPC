@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Mamba-MPC: companion code for Mamba Sequence Modeling Meets Model Predictive Control"
+authors:
+  - family-names: Cevaal
+    given-names: Michiel
+    affiliation: "Tilburg University"
+    email: m.cevaal@tilburguniversity.edu
+  - family-names: "de Jong"
+    given-names: "Thomas O."
+    affiliation: "Eindhoven University of Technology"
+  - family-names: Lazar
+    given-names: Mircea
+    affiliation: "Eindhoven University of Technology"
+license: MIT
+repository-code: "https://github.com/cmichiel/Mamba-MPC"
+keywords:
+  - model predictive control
+  - state space models
+  - Mamba
+  - neural networks
+  - data-driven modeling
+
+preferred-citation:
+  type: article
+  title: "Mamba Sequence Modeling Meets Model Predictive Control"
+  authors:
+    - family-names: Cevaal
+      given-names: Michiel
+      affiliation: "Tilburg University"
+    - family-names: "de Jong"
+      given-names: "Thomas O."
+      affiliation: "Eindhoven University of Technology"
+    - family-names: Lazar
+      given-names: Mircea
+      affiliation: "Eindhoven University of Technology"
+  journal: "IEEE Open Journal of Control Systems"
+  year: 2026
+  doi: "10.1109/OJCSYS.2026.3724785"
+  issn: "2694-085X"
+  start: 1
+  end: 15
+  url: "https://ieeexplore.ieee.org/document/11657796"
